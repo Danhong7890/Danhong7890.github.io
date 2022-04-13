@@ -1,0 +1,188 @@
+body{
+    background-color:#757575;
+  }
+  
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #BDBDBD;
+      display: block;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    li{
+        float:right;
+    }
+    
+    
+    li a {
+      display: block;
+      color:black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+      color: white;
+    }
+   h1,h3.name{
+        font-family: 'Roboto Mono', monospace;
+        text-align:left;
+        color: #fff;
+        padding: 100px;
+        text-shadow: 
+            0 0 10px #0ebeff,
+            0 0 20px #0ebeff,
+            0 0 50px #0ebeff,
+            0 0 100px #0ebeff,
+            0 0 200px #0ebeff
+    }
+    div.intro{
+        background-image: url(webb.jpg);
+        background-size: contain;
+        background-repeat:no-repeat;
+        background-position:right;
+    
+    }
+   .item .pic {
+         float:left;margin-right:10px;width:100px;height:100px; 
+    }
+   .item .content {
+    float:right ;width:500px;
+}
+span.double{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    float: left;
+	width:190px;
+}
+div.honesty{
+    border: 2px solid ;
+}
+p.honesty1{
+    padding:2px;
+}
+a.downb {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    float:left;margin-right:10px; 
+    cursor: pointer;
+    font-size: 20px;
+  
+}
+   
+ a.downb:hover{
+    background-color: RoyalBlue;
+  }
+  .button1{
+      background-color:aquamarine;
+      border: none;
+    color: white;
+    padding: 20px 30px;
+    float:left  ;
+    margin-right:10px; 
+   
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .button1:hover{
+      background-color: #0ebeff;
+  }
+  div.column {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+  }
+  footer{
+      clear: both;
+  }
+  .column {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+  }
+  div.photos {
+    margin: 60px;
+    border: 1px solid #777;
+    float: left;
+    width: 180px;
+  }
+  
+  div.photos:hover {
+    border: 1px solid #ccc;
+  }
+  
+  div.photos img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.describe {
+    padding: 15px;
+    text-align: center;
+  }
+  .name1{
+    font-family: 'Roboto Mono', monospace;
+    text-align:left;
+    color: #fff;
+    padding: 80px;
+    text-shadow: 
+        0 0 10px #0ebeff,
+        0 0 20px #0ebeff,
+        0 0 50px #0ebeff,
+        0 0 100px #0ebeff,
+        0 0 200px #0ebeff
+  }
+  div.form{
+      border:white solid 2px;
+  }
+  form.form1{
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+ 
+  
+
+.education .serv-content .contain{
+    width: calc(50% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+   
+    
+}
+.education .serv-content .contain:hover{
+    background-color: coral;
+}
+
+
+
+.education .serv-content .contain .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color:#0ebeff;
+}
+.education .serv-content .contain .text span{
+    color:grey;
+    font-size: 20px ;
+}
+div #last{
+text-align: center;
+}
+
+    
+   
+    
+  
